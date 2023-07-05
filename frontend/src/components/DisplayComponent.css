@@ -1,0 +1,56 @@
+h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-family: Impact;
+    text-decoration: underline;
+}
+
+/* center project items, set to flex and wrap */
+.project-item-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.project-item-container > * {
+    width: 300px;
+    margin: 10px;
+}
+
+.project-item {
+    background-color: rgba(190, 225, 255, 0.842);
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* align buttons along the bottom */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+    margin-top: auto;
+}
+
+.button-container button {
+    width: 70px;
+    margin-top: 2vh;
+}
+
+.edit-button {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(64, 241, 182, 0.685);
+}
+
+.delete-button {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(220, 56, 73, 0.897);
+}
+  
