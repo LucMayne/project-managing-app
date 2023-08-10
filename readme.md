@@ -8,7 +8,6 @@ Start Server:
 4. The server will run on port 8080 by default
 
 Usage:
-Enter 
 The API has the following endpoints-
 GET /api/: 
 returns an array of projects.
